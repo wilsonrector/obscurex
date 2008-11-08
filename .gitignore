@@ -1,2 +1,4 @@
 log/*
 .DS_Store
+*.sqlite3
+db/schema.rb
