@@ -15,7 +15,8 @@ class ApplicationController < ActionController::Base
   
   require 'digest/sha1'
   
-  before_filter :require_login
+  # Uncomment this when we want users!
+  # before_filter :require_login
   
   private
   def require_login
